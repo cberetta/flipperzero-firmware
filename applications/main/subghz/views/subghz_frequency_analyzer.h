@@ -30,3 +30,6 @@ SubGHzFrequencyAnalyzerFeedbackLevel subghz_frequency_analyzer_feedback_level(
     SubGhzFrequencyAnalyzer* instance,
     SubGHzFrequencyAnalyzerFeedbackLevel level,
     bool update);
+
+bool subghz_frequency_analyzer_log_to_file();
+void subghz_frequency_analyzer_log(float rssi, uint32_t frequency);
